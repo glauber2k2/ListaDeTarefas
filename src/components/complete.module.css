@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  background: rgb(224, 169, 163);
+  border-radius: 10px;
+  margin: auto;
+  width: 30rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-family: monospace;
+}
+
+.list button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0; /*para a 'hitbox' do botão ficar colado na imagem no focus*/
+  border-radius: 4px;
+}
+
+.list button svg { /*svg formato dos icones dos buttons*/
+  background: transparent;
+  
+}
+
+.list button svg:hover { /*svg formato dos icones dos buttons*/
+  background: transparent;
+  color: brown;
+  }

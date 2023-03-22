@@ -1,0 +1,64 @@
+.insert{
+  text-align: center;
+  margin: 2rem;
+  justify-content: space-between;
+}
+
+.counter {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.send textarea {
+  color: rgb(5, 5, 5);
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 16px;
+  
+  resize: none;
+  width: 30rem;
+  background: rgb(255, 255, 255);
+}
+
+.send button {
+  padding: 1rem;
+  cursor: pointer;
+  background: white;
+}
+
+.send button svg { /*svg formato dos icones dos buttons*/
+  background: transparent;
+  
+}
+
+.send button:hover { /*svg formato dos icones dos buttons*/
+  background: green;
+  color: white;
+  }
+
+.results {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 20rem;
+  
+}
+
+@media (max-width: 920px) {
+  .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+} 
