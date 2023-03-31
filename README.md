@@ -19,6 +19,12 @@
 
   </div>
 
+## Sobre:
+
+Ja pensou, você trabalhando, e precisa separar seu trabalho por etapas, e ai você descobre que tem um site onde você pode anotar tudo para não esquecer?
+
+*Essa apliacação foi feita pra você, com o intuito de facilitar a criação de uma lista de tarefas no navegador, sem a nescessidade de gastar papel e caneta, totalmente feita utilizando react com typescript, html e css.*
+
 ## Descrição de funcionalidade:
 - Adicionar nova atividade.
 - Marcar atividade como concluida.
